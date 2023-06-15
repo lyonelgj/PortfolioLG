@@ -1,0 +1,36 @@
+{
+    "squadName": "STEEZ NUTS",
+    "ubication": "LPGC YK",
+    "formed": 2022,
+    "active": true,
+    "members": [
+      {
+        "name": "VARSITY CREWNECK MARSHMELLOW",
+        "imagen": "../img/unnamed.jpg",
+        "description": "The varsity style has always ruled in Nude Project, it was about time we made a crewneck. With the new varsity design and a beige base with different tone of brown and beige in the varsity Nude embroidered." ,
+        "materials": "80% cotton & 20% polyester",
+        "color": "Beige",
+        "price": "€64",
+        "stock": true
+      },
+      {
+        "name": "NOT SORRY HOOD SPORTS GREY",
+        "imagen": "../img/notsorryhoodgrey3.webp",
+        "description": "We love what we do and we are proud of it. This grey hood represents how we are here to stay & we are not sorry 4 anything.",
+        "materials": "80% cotton & 20% polyester",
+        "color": "Grey",
+        "price": "€79",
+        "stock": true
+      },
+      {
+        "name": "DEVIL DENIM PANTS",
+        "imagen": "../img/IMG_2619.webp",
+        "description": "The jeans that your evil self was wishing to have. A blue loose fit straight legged denim to wear every day.",
+        "materials": "Denim",
+        "color": "Black",
+        "price": "€99",
+        "stock": true
+      }
+    ]
+  }
+  

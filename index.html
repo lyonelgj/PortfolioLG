@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css">
+    
+    <title>Lyonel García</title>
+</head>
+
+<body>
+    <!-- INICIO -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>/LG/</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <a href="#inicio">INICIO</a>
+                            <a href="#sobremi">SOBRE MI</a>
+                            <a href="#servicios">SERVICIOS</a>
+                            <a href="#portfolio">PROYECTOS</a>
+                            <a href="#contacto">CONTACTO</a>
+                            <a href="./Proyecto propio JSON/index.html">STEEZ NUTS</a>
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div> 
+
+
+                    <div class="redes">
+                        <a href="https://github.com/lyonelgj"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/lyonel-garcia-1a842422b/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/lyonel_gj/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">      
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Lyonel García</span>, Desarrollador Web</h2>
+                <p class="descripcion">Explora el poder de la tecnología en cada línea de código.</p>
+                <a href="#contacto">Contacto</a>
+        </div>
+    </section>
+
+    <!-- SOBRE MI -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="./img/IMG-9157.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Lyonel García</span> </h2>
+            <h3>Desarrollador Web</h3>
+            <p>Estudiante del desarrollo de aplicaciones web con sede en Las Palmas de Gran Canaria. Me dedico a crear soluciones digitales innovadoras y atractivas que brinden experiencias únicas a los usuarios.
+                Con una formación académica en desarrollo web, estoy adquiriendo conocimientos en lenguajes de programación como HTML, CSS , Java y JavaScript, así como también bases de datos MYSQL. </p>
+            <a href="./img/Currículum .pdf">Descargar CV</a>
+        </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa fa-code"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <p>Diseño de sitios web personalizados que cautivan y destacan tu marca.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-file-code"></i></span>
+                <h4>Programación Java</h4>
+                <hr>
+                <p>Desarrollo de aplicaciones robustas y eficientes con programación Java.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-database"></i></span>
+                <h4>Base de Datos como Servicio</h4>
+                <hr>
+                <p>Optimiza el almacenamiento y gestión de datos con nuestra solución de Base de Datos como Servicio.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- HABILIDADES -->
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES </h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Html & Css</p>
+                <span class="porcentaje">50%</span>
+            </div>
+
+            <div class="barra">
+                <div class="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Javascript</p>
+                <span class="porcentaje">30%</span>
+            </div>
+
+            <div class="barra">
+                <div class="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>MYSQL</p>
+                <span class="porcentaje">45%</span>
+            </div>
+
+            <div class="barra">
+                <div class="bd"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Java</p>
+                <span class="porcentaje">55%</span>
+            </div>
+
+            <div class="barra">
+                <div class="jv"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="./img/Festival.jpg" alt="">
+                <div class="info">
+                    <h4>Rock & EDM Festival</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="./img/nw.jpg" alt="">
+                <div class="info">
+                    <h4>NEWEST</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="./img/BlogDeCafe.jpg" alt="">
+                <div class="info">
+                    <h4>BlogDeCafé</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="./img/frnted.jpg" alt="">
+                <div class="info">
+                    <h4>Frontend Store</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="./img/ee.jpg" alt="">
+                <div class="info">
+                    <h4 >SAVEE</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="./img/12.jpg" alt="">
+                <div class="info">
+                    <h4>R04DM3N</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactanos ahora</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo *" class="input-mitad">
+                    <input type="email" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>Lyonel García Jiménez - 2023</p>
+        <div class="redes">
+            <a href="https://github.com/lyonelgj"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/lyonel-garcia-1a842422b/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/lyonel_gj/"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
